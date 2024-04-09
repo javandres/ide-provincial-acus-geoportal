@@ -4,7 +4,7 @@ services:
     build:
       context: .
     ports:
-      - "3002:3001"
+      - "4001:3001"
     networks:
       - geoportal
 
