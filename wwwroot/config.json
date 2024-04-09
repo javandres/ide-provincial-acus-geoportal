@@ -1,10 +1,12 @@
 {
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-  "initializationUrls": ["simple"],
+  "initializationUrls": ["init_congope"],
   "parameters": {
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NmY5NTBhYS0xMThhLTQxYzMtOGJlMS0wM2Q3MmU5M2Q2NmUiLCJpZCI6NzQ5MjUsImlhdCI6MTYzODIyNjIyNX0.GEOSoXSAavUDSAZbsA99QELpqRAGcoSc0P0b4cEzt8c",
+    "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
     // Log ConsoleAnalytics events to console
     // logToConsole: true,
     /* Text that appears at the bottom of the map */
@@ -37,11 +39,11 @@
             link: "http://www.example.com"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
-    "appName": "Terria Map",
+    "appName": "Patromono Natural del Ecuador - Geoportal - CONGOPE ",
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+      "<a target=\"_blank\" href=\"https://terria.io\"><img src=\"static/logo_congope.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
     // Shown when things go wrong.
@@ -69,13 +71,13 @@
     // "showInAppGuides": false,
     // see `languageOverrides.json` in languages/en
     "languageConfiguration": {
-      "enabled": false,
+      "enabled": true,
       "debug": false,
       "languages": {
-        "en": "English",
-        "fr": "Français"
+        "es": "Español",
+        "en": "English"
       },
-      "fallbackLanguage": "en"
+      "fallbackLanguage": "es"
     },
     "searchBarConfig": {},
     "searchProviders": [

@@ -1,0 +1,245 @@
+{
+  "homeCamera": {
+    "north": 5.99,
+    "east": -70.83,
+    "south": -9.19,
+    "west": -93.16
+  },
+  "catalog": [
+    {
+      "name": "Areas de Conservación y Protección",
+      "type": "group",
+      "isOpen": true,
+      "members": [
+        {
+          "name": "Sistema Nacional de Areas Protegidas",
+          "type": "group",
+          "members": [
+            {
+              "name": "Sistema Nacional de Área Protegida SNAP - Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_fa210_snap_a"
+            },
+            {
+              "name": "Área Bajo Conservación - Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_hc005_area_bajo_conservacion_a"
+            },
+            {
+              "name": "Area de Proteccion Hidrica	- Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_hd002_aph_a"
+            },
+            {
+              "name": "Área prioritaria de restauración	- Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_tb001_area_prioritaria_restauracion_a"
+            },
+            {
+              "name": "Humedal Ramsar - Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_hc006_humedal_ramsar_a"
+            },
+            {
+              "name": "Reserva de Biósfera - Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_hc002_reserva_biosfera_a"
+            },
+            {
+              "name": "Corredor de Conectividad - Ministerio de Ambiente",
+              "type": "wms",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "mae_ide:v_hc007_corredor_conectividad"
+            }
+          ]
+        },
+        {
+          "name": "Provincias Ecuador",
+          "type": "group",
+          "isOpen": true,
+          "members": [
+            {
+              "name": "Azuay",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Azuay - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Área de Bosque y Vegetación Protectora MAATE - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:abvp_azuay_a"
+                    },
+                    {
+                      "name": "Área prioritaria de restauración 2022 MAATE - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:area_prioritacia_resta_maate2022_a"
+                    },
+                    {
+                      "name": "Áreas Potencial Conservación - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:area_potencial_conservacion_a"
+                    },
+                    {
+                      "name": "Área de Protección Prioritaria - AZUAY",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "type": "wms",
+                      "layers": "azuay_wfs:area_proteccion_prioritaria_a"
+                    },
+                    {
+                      "name": "Estrategias Locales de Conservación Cantonales - AZUAY",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "type": "wms",
+                      "layers": "azuay_wfs:areas_conserv_cantonales_a"
+                    }
+                  ]
+                },
+                {
+                  "name": "Cuenca",
+                  "type": "group",
+                  "members": []
+                },
+                {
+                  "name": "Santa Isabel",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Condor Andino - Área de Protección y Uso Sustentable [ACU]",
+                      "url": "https://santaisabel.saga.ec/geoportal/servicios/modulos/catastro_rural/ficha_predial/pdf/mapa.php?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "acus_condor_andino"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Imbabura",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Imbabura - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Zonas Bajo Conservación (MapService)- IMBABURA",
+                      "url": "https://mapasonline.imbabura.gob.ec/servergis/rest/services/SIL2018/Biofisico1_Service/MapServer/2",
+                      "type": "esri-mapServer"
+                    },
+                    {
+                      "name": "Zonas de Conservación (FeatureService)- IMBABURA",
+                      "url": "https://mapasonline.imbabura.gob.ec/servergis/rest/services/SIL2018/Biofisico1_Service/FeatureServer/2",
+                      "type": "esri-featureServer"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pastaza",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Pastaza - GAD Provincial",
+                  "type": "group",
+                  "isOpen": true,
+                  "members": [
+                    {
+                      "name": "Areas de conservacion - PASTAZA",
+                      "url": "https://services9.arcgis.com/NOt9aRRQgcL53dXa/ArcGIS/rest/services/areas_conservacion_gadppz/FeatureServer/5",
+                      "type": "esri-featureServer"
+                    },
+                    {
+                      "name": "Areas de Restauraciṕon - PASTAZA",
+                      "url": "https://services9.arcgis.com/NOt9aRRQgcL53dXa/ArcGIS/rest/services/areas_restauracion_gadppz/FeatureServer/4",
+                      "type": "esri-featureServer"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pichincha",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Pichincha - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "geovisor:acus"
+                    },
+                    {
+                      "name": "Zonas de reserva - PICHINCHA",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "geovisor:zonas_reserva"
+                    }
+                  ]
+                },
+                {
+                  "name": "Distrito Metropolitano de Quito",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "smiq:SMAP"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tungurahua",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Tungurahua - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Áreas de Conservación y Producción - TUNGURAHUA",
+                      "url": "https://mapas.tungurahua.gob.ec/geoservicios/pmp/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities",
+                      "type": "wms",
+                      "layers": "pmp:areas_conservacion_produccion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "terria-reference",
+      "url": "https://raw.githubusercontent.com/ubica-ecuador/catalogo-geoportal-ecuador/main/catalogo.json",
+      "isGroup": false,
+      "name": "Catálogo de Datos Geoespaciales de Ecuador - GeoEcuador",
+      "id": "ubica-ec-geoportal-ecuador",
+      "isOpen": true,
+      "description": "Catálogo de Datos Geoespaciales de Ecuador",
+      "dataCustodian": "UBICA Ecuador"
+    }
+  ],
+  "viewerMode": "3dSmooth",
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-positron",
+    "previewBaseMapId": "basemap-positron"
+  }
+}
