@@ -229,7 +229,7 @@
     {
       "type": "terria-reference",
       "url": "https://raw.githubusercontent.com/ubica-ecuador/catalogo-geoportal-ecuador/main/catalogo.json",
-      "isGroup": false,
+      "isGroup": true,
       "name": "Catálogo de Datos Geoespaciales de Ecuador - GeoEcuador",
       "id": "ubica-ec-geoportal-ecuador",
       "isOpen": true,
