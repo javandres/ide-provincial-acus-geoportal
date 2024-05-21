@@ -263,7 +263,7 @@
                   "members": [
                     {
                       "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WFS)",
-                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                      "url": "http://190.95.191.138/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities",
                       "type": "wfs",
                       "typeNames": "geovisor:acus",
                       "styles": [
@@ -279,13 +279,13 @@
                     },
                     {
                       "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WMS)",
-                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "url": "http://190.95.191.138/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                       "type": "wms",
                       "layers": "geovisor:acus"
                     },
                     {
                       "name": "Zonas de reserva - PICHINCHA",
-                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "url": "http://190.95.191.138/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                       "type": "wms",
                       "layers": "geovisor:zonas_reserva"
                     }
