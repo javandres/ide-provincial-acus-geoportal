@@ -74,7 +74,8 @@
     "edu.ec",
     "fin.ec",
     "org",
-    "ec"
+    "ec",
+    "190.95.191.138"
   ],
   "proxyPostSizeLimit": 10240000,
   "bypassUpstreamProxyFor": [],
