@@ -7,7 +7,7 @@
   },
   "catalog": [
     {
-      "name": "Areas de Conservación y Protección",
+      "name": "Catálogo de Datos del Patrimonio Natural del Ecuador",
       "type": "group",
       "isOpen": true,
       "members": [
@@ -263,7 +263,7 @@
                   "members": [
                     {
                       "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WFS)",
-                      "url": "http://190.95.191.138/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities",
                       "type": "wfs",
                       "typeNames": "geovisor:acus",
                       "styles": [
@@ -279,13 +279,13 @@
                     },
                     {
                       "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WMS)",
-                      "url": "http://190.95.191.138/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                       "type": "wms",
                       "layers": "geovisor:acus"
                     },
                     {
                       "name": "Zonas de reserva - PICHINCHA",
-                      "url": "http://190.95.191.138/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                       "type": "wms",
                       "layers": "geovisor:zonas_reserva"
                     }
@@ -363,6 +363,366 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "Cobertura y Uso del Suelo - MAATE",
+          "type": "group",
+          "isOpen": false,
+          "members": [
+            {
+              "name": "Cobertura de la tierra 2022",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2022_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2020",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2020_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2018",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2018_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2016",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2016_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2014",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2014_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2008",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2008_a"
+            },
+            {
+              "name": "Cobertura de la tierra 2000",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_2000_a"
+            },
+            {
+              "name": "Cobertura de la tierra 1990",
+              "url": "http://ide.ambiente.gob.ec:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "type": "wms",
+              "layers": "mae_ide:v_ff010_cobertura_vegetal_1990_a"
+            }
+          ]
+        },
+        {
+          "name": "Atlas Geográfico Ambiental - IGM",
+          "type": "wms-group",
+          "url": "https://www.geoportaligm.gob.ec/tematica/atlas_ambiental/wms?"
+        },
+        {
+          "name": "Provincias Ecuador",
+          "type": "group",
+          "isOpen": true,
+          "members": [
+            {
+              "name": "Azuay",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Azuay - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Área de Bosque y Vegetación Protectora MAATE - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:abvp_azuay_a"
+                    },
+                    {
+                      "name": "Área prioritaria de restauración 2022 MAATE - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:area_prioritacia_resta_maate2022_a"
+                    },
+                    {
+                      "name": "Áreas Potencial Conservación - AZUAY",
+                      "type": "wms",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "layers": "azuay_wfs:area_potencial_conservacion_a"
+                    },
+                    {
+                      "name": "Área de Protección Prioritaria - AZUAY",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "type": "wms",
+                      "layers": "azuay_wfs:area_proteccion_prioritaria_a"
+                    },
+                    {
+                      "name": "Estrategias Locales de Conservación Cantonales - AZUAY",
+                      "url": "https://geoportal.azuay.gob.ec/geoserver/ows?SERVICE=WMS&",
+                      "type": "wms",
+                      "layers": "azuay_wfs:areas_conserv_cantonales_a"
+                    }
+                  ]
+                },
+                {
+                  "name": "Cuenca",
+                  "type": "group",
+                  "members": [
+                    {
+                      "type": "wfs",
+                      "name": "Areas de conservación y uso sustentable [ACUS] (WFS)",
+                      "url": "https://ide.cuenca.gob.ec/geoserver/ows?service=WFS&acceptversions=2.0.0&request=GetCapabilities&CQL_FILTER=descripcio = 'ACUS'",
+                      "typeNames": "ws_planificacion_pdot:especial_bosque_protector",
+                      "styles": [
+                        {
+                          "id": "ACUS",
+                          "color": {
+                            "nullColor": "rgba(21,212,176,1)"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "ACUS"
+                    },
+                    {
+                      "type": "wfs",
+                      "name": "Areas de conservación y uso sustentable (ACUs) y Bosques Protectores",
+                      "url": "https://ide.cuenca.gob.ec/geoserver/ows?service=WFS&acceptversions=2.0.0&request=GetCapabilities",
+                      "typeNames": "ws_planificacion_pdot:especial_bosque_protector",
+                      "styles": [
+                        {
+                          "id": "descripcio",
+                          "color": {
+                            "colorPalette": "HighContrast"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "descripcio"
+                    }
+                  ]
+                },
+                {
+                  "name": "Santa Isabel",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Condor Andino - Área de Protección y Uso Sustentable [ACUS] (WFS)",
+                      "url": "https://santaisabel.saga.ec/geoportal/servicios/modulos/catastro_rural/ficha_predial/pdf/mapa.php?service=wfs&version=2.0.0&request=GetCapabilities",
+                      "type": "wfs",
+                      "typeNames": "acus_condor_andino"
+                    },
+                    {
+                      "name": "Condor Andino - Área de Protección y Uso Sustentable [ACUS] (WMS)",
+                      "url": "https://santaisabel.saga.ec/geoportal/servicios/modulos/catastro_rural/ficha_predial/pdf/mapa.php?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "acus_condor_andino"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Imbabura",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Imbabura - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Zonas de Conservación (FeatureService)- IMBABURA",
+                      "url": "https://mapasonline.imbabura.gob.ec/servergis/rest/services/SIL2018/Biofisico1_Service/FeatureServer/2",
+                      "type": "esri-featureServer",
+                      "styles": [
+                        {
+                          "id": "ACUS",
+                          "color": {
+                            "nullColor": "rgba(21,212,176,1)"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "ACUS"
+                    },
+                    {
+                      "name": "Zonas Bajo Conservación (MapService)- IMBABURA",
+                      "url": "https://mapasonline.imbabura.gob.ec/servergis/rest/services/SIL2018/Biofisico1_Service/MapServer/2",
+                      "type": "esri-mapServer"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pastaza",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Pastaza - GAD Provincial",
+                  "type": "group",
+                  "isOpen": true,
+                  "members": [
+                    {
+                      "name": "Areas de Restauraciṕon - PASTAZA (WFS)",
+                      "url": "https://services9.arcgis.com/NOt9aRRQgcL53dXa/ArcGIS/rest/services/areas_restauracion_gadppz/FeatureServer/4",
+                      "type": "esri-featureServer",
+                      "styles": [
+                        {
+                          "id": "ACUS",
+                          "color": {
+                            "nullColor": "rgba(21,212,176,1)"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "ACUS"
+                    },
+                    {
+                      "name": "Areas de conservacion - PASTAZA",
+                      "url": "https://services9.arcgis.com/NOt9aRRQgcL53dXa/ArcGIS/rest/services/areas_conservacion_gadppz/FeatureServer/5",
+                      "type": "esri-featureServer"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pichincha",
+              "type": "group",
+              "members": [
+                {
+                  "name": "Pichincha - GAD Provincial",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WFS)",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities",
+                      "type": "wfs",
+                      "typeNames": "geovisor:acus",
+                      "styles": [
+                        {
+                          "id": "ACUS",
+                          "color": {
+                            "nullColor": "rgba(21,212,176,1)"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "ACUS"
+                    },
+                    {
+                      "name": "Área de Protección y Uso Sustentable [ACU] - PICHINCHA (WMS)",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "geovisor:acus"
+                    },
+                    {
+                      "name": "Zonas de reserva - PICHINCHA",
+                      "url": "http://sitp.pichincha.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "geovisor:zonas_reserva"
+                    }
+                  ]
+                },
+                {
+                  "name": "Distrito Metropolitano de Quito",
+                  "type": "group",
+                  "members": [
+                    {
+                      "name": "ACUS - Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WFS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities&CQL_FILTER=smap = 'Área de Conservación y Uso Sustentable'",
+                      "type": "wfs",
+                      "typeNames": "smiq:SMAP",
+                      "styles": [
+                        {
+                          "id": "ACUS",
+                          "color": {
+                            "nullColor": "rgba(21,212,176,1)"
+                          },
+                          "hidden": false
+                        }
+                      ],
+                      "activeStyle": "ACUS"
+                    },
+                    {
+                      "name": "Áreas de Protección de Humedales - Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WFS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities&CQL_FILTER=smap = 'Área de Protección de Humedales'",
+                      "type": "wfs",
+                      "typeNames": "smiq:SMAP"
+                    },
+                    {
+                      "name": "Corredor Ecológico - Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WFS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities&CQL_FILTER=smap = 'Corredor Ecológico'",
+                      "type": "wfs",
+                      "typeNames": "smiq:SMAP"
+                    },
+                    {
+                      "name": "Área de Intervención y Recuperación - Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WFS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities&CQL_FILTER=smap = 'Área de Intervención y Recuperación'",
+                      "type": "wfs",
+                      "typeNames": "smiq:SMAP"
+                    },
+                    {
+                      "name": "Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WFS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wfs",
+                      "typeNames": "smiq:SMAP",
+                      "activeStyle": "smap"
+                    },
+                    {
+                      "name": "Sistema Metropolitano de Areas Protegidas - SMAP - D.M. QUITO (WMS)",
+                      "url": "https://geomdmq.quito.gob.ec:8443/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                      "type": "wms",
+                      "layers": "smiq:SMAP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Servicios Externos",
+          "type": "group",
+          "isOpen": false,
+          "members": [
+            {
+              "name": "Live Biomass Carbon Density - Global Forest Watch",
+              "type": "wms",
+              "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "MapX_UNDP:biomass_carbon_density_opt"
+            },
+            {
+              "name": "South America Forest Height - Global Forest Watch",
+              "type": "wms",
+              "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "MapX_UNDP:samerica_forheight"
+            },
+            {
+              "name": "Species Richness - Global Forest Watch",
+              "type": "wms",
+              "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "MapX_UNDP:samerica_forheight"
+            },
+            {
+              "name": "Forest Integrity Index (FI) - Global Forest Watch",
+              "type": "wms",
+              "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "MapX_UNDP:forest_int_index_19"
+            },
+            {
+              "name": "Aboveground biomass density of vegetation (Mg/ha) - Global Forest Watch",
+              "type": "wms",
+              "url": "https://datacore.unepgrid.ch/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities",
+              "layers": "MapX_UNDP:Avitabile_AGB_Map"
             }
           ]
         }
