@@ -11129,9 +11129,9 @@ terriajs-server@^4.0.0:
     request-promise "^4.0.1"
     yargs "^13.2.4"
 
-"terriajs@https://github.com/ubica-ecuador/terriajs-ecuador.git":
+"terriajs@https://github.com/ubica-ecuador/terriajs-ecuador.git#ubica":
   version "8.7.2"
-  resolved "https://github.com/ubica-ecuador/terriajs-ecuador.git#5477721e6b5e2228ea0ed35f93b51cae13608af5"
+  resolved "https://github.com/ubica-ecuador/terriajs-ecuador.git#d4cc36a732435b0679cd397595caec7cfcf83053"
   dependencies:
     "@babel/core" "^7.23.5"
     "@babel/parser" "^7.23.5"
