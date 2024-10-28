@@ -383,7 +383,24 @@
                   "hidden": false
                 }
               ],
-              "activeStyle": "ACUS"
+              "activeStyle": "ACUS",
+              "description": "<b>MAPA NACIONAL DE ÁREAS DE CONSERVACIÓN Y USO SOSTENIBLE</b><div>Las Áreas de Conservación y Uso Sostenible (ACUS) son espacios reservados oficialmente por los Gobiernos Autónomos Descentralizados (GAD) provinciales y municipales para proteger el patrimonio natural, preservar y regular los espacios naturales y hacer efectivo el derecho a la conservación del ambiente; proteger y restaurar las fuentes de agua asociadas a ecosistemas frágiles, especialmente las zonas productoras de agua destinadas al consumo humano; promover la protección de la diversidad biológica y los servicios ecosistémicos; prevenir la contaminación y fomentar el uso sostenible de los recursos naturales.</div>",
+              "metadataUrls": [
+                {
+                  "title": "Presentación",
+                  "url": "https://www.natureandculture.org/es/directorio/presentacion-oficial-de-mapa-nacional-de-areas-de-conservacion-y-uso-sostenible-acus-durante-foro-nacional/#:~:text=Las%20%C3%81reas%20de%20Conservaci%C3%B3n%20y%20Uso%20Sostenible%20(ACUS)%20son%20espacios,conservaci%C3%B3n%20del%20ambiente%3B%20proteger%20y"
+                },
+                {
+                  "title": "Mapa",
+                  "url": "https://www.natureandculture.org/es/mapa-nacional-de-areas-de-conservacion-y-uso-sostenible/"
+                }
+              ],
+              "dataUrls": [
+                {
+                  "title": "Descarga de Datos (ArcGIS REST service)",
+                  "url": "https://services5.arcgis.com/suGXTuFu59b5BYV9/ArcGIS/rest/services/"
+                }
+              ]
             }
           ]
         },
